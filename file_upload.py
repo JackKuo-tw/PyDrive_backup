@@ -7,8 +7,7 @@ drive = GoogleDrive(gauth)
  
  
 try:
-# id 表示雲端硬碟資料夾的 id
-# 可以在網頁畫面網址列看到
+# id 表示雲端硬碟資料夾的 id, 可以在網頁畫面網址列看到
     file1 = drive.CreateFile({"title":'Hello.txt',"parents": [{"kind": "drive#fileLink", "id": "1B4GktyQzQmZDRYTHYDUpW"}]})
     file1.SetContentFile('../mail.py')
     file1.Upload() #檔案上傳
