@@ -1,5 +1,7 @@
 # PyDrive_backup
 
+作者擔心樹莓派的 SD 卡某一天突然壞掉，所以想要做簡單的備份程式，由於學生的 Google Drive 空間是無限量的，PyDrive 自然是不錯的選擇。壓縮程式預設使用 7z 是因為方便又可以對 metadata 進行加密，也就是沒有密碼是不能看到壓縮檔裡有哪些檔案與目錄。
+
 ## 安裝必要套件
 
 - `$sudo pip install pydrive`
@@ -24,9 +26,6 @@ PyDrive 這個套件是使用 Google API，因此我們得去申請一下
 - 填寫 client_id 與 client_secret 即可
 
 ## 自動備份
-
-作者擔心樹莓派的 SD 卡某一天突然壞掉，所以想要做簡單的備份程式，由於學生的 Google Drive 空間是無限量的，PyDrive 自然是不錯的選擇。壓縮程式預設使用 7z 是因為方便又可以對 metadata 進行加密，也就是沒有密碼是不能看到壓縮檔裡有哪些檔案與目錄。
-
 
 ### 檔案介紹
 
