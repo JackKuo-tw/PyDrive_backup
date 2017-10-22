@@ -5,7 +5,14 @@
 ## 安裝必要套件
 
 - `$sudo pip install pydrive`
+
+Mac user:
+
 - `$brew install p7zip`
+
+Debian or Ubuntu:
+
+- `$sudo apt install p7zip-full`
 
 ## 設定驗證資料
 
@@ -22,6 +29,7 @@ PyDrive 這個套件是使用 Google API，因此我們得去申請一下
 - 接著右邊有個下載符號，即可開啟查看認證資訊
 
 ### 填寫設定檔
+
 - 編輯 `settings.yaml`
 - 填寫 client_id 與 client_secret 即可
 
@@ -37,7 +45,7 @@ PyDrive 這個套件是使用 Google API，因此我們得去申請一下
 
 - file_list 格式範例：
 
-```
+```file
 /home/
 /var/www/html/*.html
 /var/log/system.log
